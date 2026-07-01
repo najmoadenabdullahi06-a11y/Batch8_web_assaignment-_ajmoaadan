@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Kheyre Electronics</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:#0a2540;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:17px;
+}
+
+nav ul li a:hover{
+color:#00c3ff;
+}
+
+.banner{
+height:50vh;
+background:url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.banner h1{
+background:rgba(0,0,0,.65);
+color:white;
+padding:20px 40px;
+border-radius:10px;
+font-size:45px;
+}
+
+section{
+padding:70px 8%;
+}
+
+.title{
+text-align:center;
+color:#0a2540;
+font-size:35px;
+margin-bottom:40px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+color:#0a2540;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.price{
+padding:0 15px 20px;
+font-weight:bold;
+color:#00a651;
+font-size:18px;
+}
+
+footer{
+background:#061726;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:10px;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+}
+
+.banner h1{
+font-size:30px;
+text-align:center;
+}
+
+section{
+padding:50px 20px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Kheyre Electronics</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About Us</a></li>
+
+<li><a href="services.html">Services</a></li>
+
+<li><a href="contact.html">Contact Us</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="banner">
+
+<h1>Adeegyadayada</h1>
+
+</div>
+
+<section>
+
+<h2 class="title">
+Qalabka Aan Iibino
+</h2>
+
+<div class="services">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Mobile Phones</h3>
+
+<p>
+Waxaan haynaa mobiladii ugu dambeeyay ee Android iyo iPhone.
+</p>
+
+<div class="price">
+Qiimo: $150 - $1200
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Laptop</h3>
+
+<p>
+Laptop-yo tayo sare leh oo ku habboon waxbarasho iyo shaqo.
+</p>
+
+<div class="price">
+Qiimo: $350 - $1500
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Tablet & iPad</h3>
+
+<p>
+Tablet iyo iPad casri ah oo leh dammaanad tayo leh.
+</p>
+
+<div class="price">
+Qiimo: $200 - $900
+</div>
+
+</div>
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Sameecado</h3>
+
+<p>
+Sameecado tayo sare leh oo leh cod nadiif ah, kuna habboon
+dhageysiga muusikada iyo wicitaannada.
+</p>
+
+<div class="price">
+Qiimo: $20 - $250
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Smart Watch</h3>
+
+<p>
+Saacado casri ah oo lagu cabbiro caafimaadka,
+jimicsiga iyo ogeysiisyada telefoonka.
+</p>
+
+<div class="price">
+Qiimo: $50 - $500
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=1000&q=80">
+
+<h3>Accessories</h3>
+
+<p>
+Waxaan haynaa Chargers, Power Banks,
+Keyboards, Mouse, USB iyo qalab kale oo badan.
+</p>
+
+<div class="price">
+Qiimo: $5 - $150
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Kheyre Electronics</h3>
+
+<p>
+Waxaan bixinnaa adeeg iyo qalab electronics
+oo tayo sare leh kuna habboon baahida macaamiisha.
+</p>
+
+<br>
+
+<p>
+&copy; 2026 Kheyre Electronics.
+Dhammaan xuquuqda way xafidan tahay.
+</p>
+
+</footer>
+
+</body>
+</html>

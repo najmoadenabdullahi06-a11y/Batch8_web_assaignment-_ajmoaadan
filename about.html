@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Kheyre Electronics</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:#0a2540;
+color:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-size:17px;
+}
+
+nav ul li a:hover{
+color:#00c3ff;
+}
+
+.banner{
+height:50vh;
+background:url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.banner h1{
+background:rgba(0,0,0,.65);
+color:#fff;
+padding:25px 40px;
+border-radius:10px;
+font-size:45px;
+}
+
+section{
+padding:70px 8%;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:10px;
+}
+
+.about h2{
+color:#0a2540;
+margin-bottom:20px;
+font-size:35px;
+}
+
+.about p{
+margin-bottom:18px;
+text-align:justify;
+}
+
+.boxes{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.box{
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.box h3{
+margin-bottom:15px;
+color:#0a2540;
+}
+
+footer{
+background:#061726;
+color:#fff;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:10px;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+}
+
+.banner h1{
+font-size:30px;
+text-align:center;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+section{
+padding:50px 20px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Kheyre Electronics
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About Us</a></li>
+
+<li><a href="services.html">Services</a></li>
+
+<li><a href="contact.html">Contact Us</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<div class="banner">
+
+<h1>Nagu Saabsan</h1>
+
+</div>
+
+<section>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=1200&q=80">
+
+<div>
+
+<h2>Kheyre Electronics</h2>
+
+<p>
+Kheyre Electronics waa dukaan casri ah oo bixiya
+qalabka electronics-ka ugu tayada wanaagsan sida
+Mobile, Laptop, Tablet, iPad, Smart Watch,
+Accessories iyo qalab kale oo badan.
+</p>
+
+<p>
+Waxaan mudnaanta koowaad siinnaa qanacsanaanta
+macaamiisha annagoo bixinayna adeeg hufan,
+qalab tayo leh iyo qiimo ku habboon qof walba.
+</p>
+
+<p>
+Tan iyo markii la aasaasay dukaanka,
+waxaan ku dadaalaynay inaan noqono
+dukaanka ugu kalsoonida badan ee
+qalabka electronics.
+</p>
+
+</div>
+
+</div>
+<div class="boxes">
+
+    <div class="box">
+        <h3>Hadafkeenna</h3>
+        <p>
+            Hadafkeenna waa inaan macaamiisha siino
+            qalab electronics oo tayo sare leh,
+            adeeg degdeg ah iyo qiimo macquul ah.
+        </p>
+    </div>
+
+    <div class="box">
+        <h3>Himiladeenna</h3>
+        <p>
+            Waxaan hiigsaneynaa inaan noqono
+            dukaanka ugu hormuudka badan ee
+            iibinta qalabka electronics-ka
+            gudaha dalka.
+        </p>
+    </div>
+
+    <div class="box">
+        <h3>Qiimaheena</h3>
+        <p>
+            Waxaan ku shaqeynaa kalsooni,
+            daacadnimo, tayo sare,
+            adeeg wanaagsan iyo
+            qanacsanaanta macaamiisha.
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+
+    <h3>Kheyre Electronics</h3>
+
+    <p>
+        Waxaan bixinnaa qalab electronics oo casri ah
+        iyo adeeg tayo sare leh.
+    </p>
+
+    <br>
+
+    <p>
+        &copy; 2026 Kheyre Electronics.
+        Dhammaan xuquuqda way xafidan tahay.
+    </p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kheyre Electronics | Home</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            background:#f5f5f5;
+            color:#333;
+            line-height:1.7;
+        }
+
+        header{
+            width:100%;
+            background:#0a2540;
+            color:#fff;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 8%;
+            position:sticky;
+            top:0;
+            z-index:1000;
+        }
+
+        .logo{
+            font-size:30px;
+            font-weight:bold;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+            gap:25px;
+        }
+
+        nav ul li a{
+            color:#fff;
+            text-decoration:none;
+            font-size:17px;
+            transition:.3s;
+        }
+
+        nav ul li a:hover{
+            color:#00c3ff;
+        }
+
+        .hero{
+            height:90vh;
+            background:url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80") center center/cover;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .hero-content{
+            background:rgba(0,0,0,.65);
+            padding:40px;
+            border-radius:12px;
+            max-width:700px;
+            color:white;
+        }
+
+        .hero-content h1{
+            font-size:45px;
+            margin-bottom:20px;
+        }
+
+        .hero-content p{
+            font-size:20px;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#00c3ff;
+            color:white;
+            padding:14px 35px;
+            border-radius:6px;
+            text-decoration:none;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#0096c7;
+        }
+
+        section{
+            padding:70px 8%;
+        }
+
+        .title{
+            text-align:center;
+            color:#0a2540;
+            margin-bottom:40px;
+            font-size:35px;
+        }
+
+        .features{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+            overflow:hidden;
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:15px;
+            color:#0a2540;
+        }
+
+        .card p{
+            padding:0 15px 20px;
+        }
+
+        .welcome{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:40px;
+            align-items:center;
+        }
+
+        .welcome img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .welcome h2{
+            color:#0a2540;
+            margin-bottom:15px;
+        }
+
+        .welcome p{
+            margin-bottom:15px;
+        }
+
+        footer{
+            background:#061726;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+        }
+
+        @media(max-width:768px){
+
+            header{
+                flex-direction:column;
+                gap:15px;
+            }
+
+            nav ul{
+                flex-direction:column;
+                text-align:center;
+            }
+
+            .hero{
+                height:auto;
+                min-height:80vh;
+                padding:30px;
+            }
+
+            .hero-content h1{
+                font-size:32px;
+            }
+
+            .hero-content p{
+                font-size:17px;
+            }
+
+            .welcome{
+                grid-template-columns:1fr;
+            }
+
+            section{
+                padding:50px 20px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Kheyre Electronics
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Kusoo Dhawoow Kheyre Electronics</h1>
+
+        <p>
+            Waxaan kuu haynaa Mobile, Laptop, Tablet, iPad iyo
+            dhammaan qalabka Electronics-ka ee casriga ah
+            oo tayo sare leh.
+        </p>
+
+        <a href="services.html" class="btn">
+            Daawo Adeegyadayada
+        </a>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2 class="title">
+        Maxaad Noo Dooranaysaa?
+    </h2>
+
+    <div class="features">
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80">
+
+            <h3>Mobilo Casri Ah</h3>
+
+            <p>
+                Waxaan haynaa mobiladii ugu dambeeyay
+                ee suuqa yaalla qiimo jaban.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80">
+
+            <h3>Laptop Tayo Sare Leh</h3>
+
+            <p>
+                Laptop-yo ku habboon waxbarasho,
+                shaqo iyo ganacsi.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80">
+
+            <h3>Tablet & iPad</h3>
+
+            <p>
+                Dooro Tablet ama iPad ku habboon
+                baahidaada maalinlaha ah.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section>
+
+    <div class="welcome">
+
+        <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=1200&q=80" alt="Electronics Store">
+
+        <div>
+
+            <h2>Ku Soo Dhawoow Dukaankayaga</h2>
+
+            <p>
+                Kheyre Electronics waa dukaan bixiya qalab
+                electronics oo tayo sare leh sida Mobile,
+                Laptop, Tablet, iPad iyo Accessories.
+            </p>
+
+            <p>
+                Waxaan ku dadaalnaa inaan macaamiisheena
+                siino adeeg wanaagsan, qiimo jaban iyo
+                qalab dammaanad leh.
+            </p>
+
+            <a href="about.html" class="btn">
+                Wax Badan Akhri
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Kheyre Electronics</h3>
+
+    <p>
+        Goobta ugu wanaagsan ee aad ka heli karto
+        qalabka electronics-ka casriga ah.
+    </p>
+
+    <br>
+
+    <p>
+        &copy; 2026 Kheyre Electronics. Xuquuqda oo dhan way
+        xafidan tahay.
+    </p>
+
+</footer>
+
+</body>
+</html>
